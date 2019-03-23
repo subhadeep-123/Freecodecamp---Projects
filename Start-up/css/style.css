@@ -1,0 +1,470 @@
+
+			/********************  Adding fonts **********************/
+
+@font-face
+{
+	font-family:'bilbo';
+	src:url('Bilbo-Regular.otf');
+}
+@font-face
+{
+	font-family:'lato';
+	src:url('Lato-LightItalic.ttf');
+}
+
+			/********************  body **********************/
+
+body
+{
+	width:100%;
+	padding:0;
+	margin:0;
+	font:13px/25px arial;
+	color:#484848;
+	font-style:italic;
+	background:#fff;
+}
+
+			/********************  header **********************/
+
+header
+{
+	width:100%;
+	background:url(../images/header-bg.jpg) 0 0 repeat;
+	border-bottom:1px solid #fff;
+}
+
+			/********************  logo **********************/
+
+h1{
+	display:inline-block;
+	z-index:2;
+	margin-left:300px;
+	margin-bottom:20px;
+	margin-top:16px;
+	position:relative;
+	float:left;
+}
+
+		/********************  navigation bar **********************/
+
+nav{
+	display:inline-block;
+	z-index:2;
+	position:relative;
+	float:right;
+	margin-right:300px;
+	margin-bottom:20px;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.menu{
+	margin:28px 0 0 0;
+	display:inline-block;
+}
+ul.menu li{
+	float:left;
+	line-height:30px;
+	margin:0 0 0 48px;
+}
+ul.menu li a{
+	font-size:25px;
+	line-height:30px;
+	color:#f2f2f2;
+	display:inline-block;
+	font-family:bilbo;
+}
+ul.menu li a:hover, ul.menu li.current a
+{
+	color:#ff9000;
+}
+			/********************* slider **************************/
+.slide
+{
+	width:100%;
+	height:496px;
+	overflow:hidden;
+	z-index:1;
+	margin:0px auto;
+	position:relative;
+	background:#fff;
+	border-bottom:1px solid #fff;
+}
+.slider
+{
+	width:1080px;
+	height:496px;
+	overflow:hidden;
+	position:relative;
+	margin:0px auto;
+}
+.banner{
+	position:absolute;
+	z-index:0;
+	top:97px;
+	left:723px;
+	width:320px;
+}
+.banner .text-1{
+	display:block;
+	margin-left:88px;
+	margin-bottom:25px;
+	background:#fff;
+}
+
+			/********************  content area of home page **********************/
+
+.content-bg
+{
+	width:100%;
+	padding:0 0 48px 0;
+	background:#f2f2f2;
+}
+
+.last{
+	margin-right:0px !important;
+	padding-right:0px !important;
+}
+.date
+{
+	overflow:hidden;
+}
+.date strong{
+	display:inline-block;
+	background:url(../images/date.png) 0 0 no-repeat;
+	width:51px;
+	height:53px;
+	float:left;
+	margin-right:5px;
+	font-weight:normal;
+	color:#000;
+	font-size:40px;
+	line-height:48px;
+	text-align:center;
+	font-family:bilbo;
+}
+.date span{
+	font-family:lato;
+	font-weight:300px;
+	font-style:italic;
+	color:#000;
+	font-size:20px;
+	line-height:24px;
+	display:inline-block;
+	overflow:hidden;
+	margin-top:21px;
+}
+
+		/********************  footer **********************/
+
+footer
+{
+	width:950px;
+	overflow:hidden;
+	margin:0px auto;
+	padding:31px 0 20px 0;
+}
+footer p
+{
+	float:left;
+	text-align:center;
+	width:580px;
+}
+.social-icons
+{
+	overflow:hidden;
+	float:right;
+	margin:8px 73px 0 0;
+}
+.social-icons span{
+	display:inline-block;
+	float:left;
+	color:#000;
+	font-size:20px;
+	line-height:27px;
+	margin-right:17px;
+	font-family:bilbo;
+}
+.social-icons a{
+	display:inline-block;
+	float:left;
+	margin-right:19px;
+}
+.social-icons a:hover img{opacity:0.7;}
+
+			/***************************about************************/
+
+ul.list-1 li
+{
+	padding:0 0 0 25px;
+	line-height:25px;
+	background:url(../images/marker.png) 0 5px no-repeat;
+}
+ul.list-1 li a{
+	color:#484848;
+}
+ul.list-1 li a:hover
+{
+	color:#457c00;
+}
+
+			/******************** contact page **********************/
+
+.map
+{
+	width:572px;
+	height:235px;
+	margin:12px 0 15px 0;
+}
+
+			/********************  style for form **********************/
+fieldset
+{
+	margin:0;
+	padding:0;
+	border:none;
+}
+			
+#form
+{
+	margin:12px 0 0 0;
+	width:300px;
+}
+#form input,textarea
+{
+	border:1px solid #fff;
+	background:#fff;
+	font:13px arial;
+	color:#b6b6b6;
+	font-style:italic;
+	outline:none;
+	float:left;
+}
+#form input
+{
+	padding:5px 9px 6px 18px;
+	width:271px;
+	height:17px;
+}
+#form textarea
+{
+	height:268px;
+	overflow:auto;
+	padding:6px 0px 0px 18px;
+	width:281px;
+	resize:none;
+	margin:0;
+}
+#form label
+{
+	position:relative;
+	overflow:hidden;
+	display:block;
+	min-height:35px;
+}
+
+.btns
+{
+	text-align:left;
+	width:300px;
+	padding-top:15px;
+}
+.btns a{
+	display:inline-block;
+	margin:0 4px 0 20px;
+}
+
+
+			/********************  boxes **********************/
+
+.box-1
+{
+	overflow:hidden;
+	padding:40px 0 34px;
+}
+.box-1 img{
+	float:left;
+	margin-top:-3px;
+}
+.box-1 h2{
+	margin-bottom:8px;
+}
+.box-2
+{
+	background:url(../images/line-1.gif) 0 0 repeat-x #f6f6f6;
+}
+.box-2 .wrap-col
+{
+	background:url(../images/line-1.gif) 0 bottom repeat-x;
+	padding:15px 0 36px 0;
+	text-align:center;
+}
+.box-2 p.text-4
+{
+	margin-top:-7px;
+}
+.box-3
+{
+	overflow:hidden;
+}
+.box-3 > div{
+	width:180px;
+	float:left;
+	margin-right:25px;
+}
+.box-3 > div a.link-2{
+	display:inline-block;
+	margin:15px 0 6px 0;
+}
+
+.box-5
+{
+		overflow:hidden;
+		padding-top:8px;
+}
+.box-5 img
+{
+	margin:4px 10px 0 0;
+}
+
+		/********************  style for little things **********************/
+
+.clr-1{color:#ff9000;}
+
+.clear
+{
+	clear:both;
+	width:100%;
+	
+}
+.extra-wrap
+{
+	overflow:hidden;
+}
+
+.fleft{float:left;}
+
+.img-border{border:8px solid #fff;}
+
+			/********************  style for links **********************/
+
+a{text-decoration:none;vertical-align:top;}
+a:hover{text-decoration:none;}
+
+.button{
+	background:url(../images/button.png) 0 0 no-repeat;
+	color:#000;
+	font-size:24px;
+	line-height:30px;
+	display:inline-block;
+	padding:2px 0 5px 43px;
+	font-family:bilbo;
+}
+.button:hover
+{
+	color:#579700;
+}
+
+.link{
+	color:#ff9000;
+	text-decoration:none;
+}
+.link:hover{
+	text-decoration:underline;
+}
+.link-2{
+	font-family:'lato';
+	font-weight:300px;
+	font-style:italic;
+	color:#ff9000;
+	font-size:20px;
+	line-height:25px;
+	text-decoration:none;
+}
+.link-2:hover{
+	text-decoration:underline;
+}
+
+		/********************  style for little text **********************/
+
+.text-1{
+	font-weight:normal;
+	color:#000;
+	font-size:60px;
+	line-height:72px;
+	font-family:bilbo;
+}
+.text-1 strong{
+		font-weight:normal;
+		margin-top:-32px;
+		display:block;
+}
+.text-2
+{
+	font-family:lato;
+	font-weight:300px;
+	font-style:italic;
+	color:#484848;
+	font-size:21px;
+	line-height:35px;
+}
+.text-3
+{
+	font-family:bilbo;
+	color:#484848;
+	font-size:50px;
+	line-height:60px;
+}
+.text-3 span
+{
+	color:#ff9000;
+}
+.text-4{
+	font-family:'lato';
+	font-weight:300px;
+	font-style:italic;
+	color:#484848;
+	font-size:30px;
+	line-height:36px;
+	letter-spacing:-1px;
+}
+
+				/******************** style for heading and paragraphs **********************/
+
+p,h2{
+	margin:0;padding:0;
+}			
+				
+h2{
+	font-size:31px;
+	line-height:40px;
+	color:#000;
+	font-weight:normal;
+	font-family:bilbo;
+	
+}
+
+			/******************** margins **********************/
+
+.top-1{margin-top:30px;}
+.top-2{margin-top:10px;}
+.top-3{margin-top:12px;}
+.top-4{margin-top:14px;}
+.top-5{margin-top:8px !important;}
+.top-6{margin-top:13px;}
+.top-7{margin-top:34px;}
+
+			/********************  paddings and margins **********************/
+
+.p2{padding-bottom:13px;}
+.p4{padding-bottom:17px;}
+
+.img-indent{float:left;margin:4px 18px 0 0;}
+.pad-1{margin-bottom:33px;margin-top:44px;}
+
+.right-1{margin-right:40px;}

@@ -1,0 +1,28 @@
+.container{
+	width:950px;
+	position:relative;
+	margin:0px auto;
+	padding:0;
+}
+.container .row:before, .row:after{
+	content:" ";
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+.container .row:after
+{
+	clear:both;
+}
+
+.container .wrap-col{margin:10px;}
+
+.container .adjust-1, .container .adjust-0, .container .adjust-2, .container .adjust-3{float:left;display:inline-block;}
+
+.container .adjust-0{width:100%;}
+.container .adjust-1{width:50%;}
+.container .adjust-2{width:66.66%;}
+.container .adjust-3{width:33.33%;}
+
