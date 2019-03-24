@@ -1,2 +1,2 @@
 # Freecodecamp---Projects
-This repository contains the Projects that i have made for my Freecodecamp certification
+This repository contains the Projects that i have made for my Freecodecamp certification Course
