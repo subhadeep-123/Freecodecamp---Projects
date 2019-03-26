@@ -1,0 +1,479 @@
+
+/******************** Adding font  **********************/
+
+@font-face
+{
+	font-family:'racing sans one';
+	src:url("RacingSansOne-Regular.ttf");
+}
+
+		/******************** body  **********************/
+
+body{
+	width:100%;
+	padding:0;
+	margin:0;
+	background:#fff;
+	color:#3f3f3f;
+	font:14px/25px Arial;
+}
+*{
+	box-sizing:border-box;
+}
+
+		/************header*****************/
+		
+header{
+	background:#fff;
+}
+
+		/******************** logo  **********************/
+
+header .logo img{
+	display:inline-block;
+	margin:0px auto;
+	padding:10px;
+	max-width:210px;
+	
+}
+
+		/******************** navigation bar **********************/
+
+.menu{
+	display:inline-block;
+	float:right;
+}
+ul,ol{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+}
+.menu ul li a{
+	padding:27px 17px;
+	letter-spacing:2px;
+	text-decoration:none;
+	color:#333;
+	font-weight:500px;
+	border:0;
+	text-transform:uppercase;
+	line-height:1;
+	display:block;
+	position:relative;
+	box-sizing:border-box;
+}
+.menu ul li:hover a{
+	background:#f3542d;
+	color:#fff;
+}
+
+
+			/**********slider**************/
+
+.slider{
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	height:600px;
+	
+}
+.slider img{
+	display:block;
+	position:relative;
+	z-index:1;
+	max-height:600px;
+	width:100%;
+	border:0;
+}
+.caption{
+	display:block;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:2;
+	text-shadow:none;
+	color:#fff;
+	background:rgba(0,0,0, 0.7);
+	padding:30px 20px 10px;
+	text-align:center;
+	margin:0;
+	max-width:none;
+	
+}
+.caption h1{
+	font-size:40px;
+	margin-bottom:20px;
+}
+.caption span{
+	font-size:24px;
+}
+
+/**********************content***********************/
+
+.content-box{
+	margin-bottom:30px;
+}
+.content-box .box-1{
+	padding-bottom:30px;
+	min-height:380px;
+}
+
+	/**********************small slider in motobike, about , contact pages ***********************/
+
+.header{
+	text-align:center;
+	margin:60px auto 50px;
+}
+.heading{
+	background:#000;
+	border-right:6px solid #f3542d;
+	color:#fff;
+	display:inline-block;
+	font-size:36px;
+	font-weight:normal;
+	height:60px;
+	line-height:42px;
+	padding:10px 20px;
+	position:relative;
+	text-transform:uppercase;
+	transform:rotate(0deg) scale(1.003) skew(-14deg) translate(0px);
+	transform-style:flat;
+}
+.heading span{
+	display:block;
+transform:rotate(0deg) scale(1.003) skew(14deg) translate(0px);
+	transform-style:flat;
+
+}
+
+			/*********************  ***********************/
+
+.content-box .item{padding:10px 0;}
+.zoom-container{
+	position:relative;
+	overflow:hidden;
+	display:inline-block;
+	width:100% !important;
+}
+
+.content-box .item img{
+	display:block;
+	width:100% !important;
+	height:auto;
+	transition:all 0.5s ease;
+}
+.content-box .item .item-content
+{
+	background:#fff;
+	padding:25px;
+	border:1px solid #ddd;
+}
+.content-box .item span{
+	font-size:15px;
+	font-weight:500px;
+	color:#000;
+}
+.content-box .item:hover .zoom-container img{
+	transform:scale(1.25) rotate(5deg);
+	
+}
+.content-box .item:hover .item-content{background:#f3542d;color:#fff;transition:all 600ms ease;}
+.content-box .item:hover .item-content p, .content-box .item:hover .item-content span{color:#fff;}
+.content-box .item:hover a.btn{color:#fff; border-color:#fff;} 
+
+			/*********************  ***********************/
+
+.content-box.box-2{
+	background:url(../images/bg-2.jpg);
+	padding:40px 0;
+	text-align:center;
+	min-height:380px;
+	color:#fff !important;
+}
+.content-box.box-2 p{
+color:#fff;
+}
+
+			/*********************  ***********************/
+
+.content-box.box-3 .post{
+	background:#f1f1f1;
+	color:3f3f3f;
+	margin-bottom:30px;
+	border:1px solid #fff;
+}
+.content-box.box-3 .post img{
+	max-height:440px;
+	width:100%;
+	border:none;
+}
+.content-box.box-3 .post .wrapper{
+	padding:60px 60px 20px 60px;
+text-align:center;}
+
+.post:after,.post:before,section:after,section:before,article:after,article:before{
+	clear:both;
+	content:" ";
+	display:block;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+
+		/*********************  ***********************/
+
+.content-box.box-4{
+	background:url(../images/bg-3.jpg) fixed 0 0;
+	min-height:380px;
+	padding:40px 0;
+	text-align:center;
+}
+
+		/*********************  ***********************/
+
+.content-box.box-5 .item{
+	border-right:1px solid #ccc;
+	padding-right:30px;
+	min-height:380px;
+	
+}
+
+
+
+		/***************footer********************/
+
+.maps{
+	margin:30px 0;
+}
+iframe{
+	border:0;
+	padding:0;
+	margin:0;
+}
+footer{
+	margin-top:40px;
+	text-align:center;
+	background:#f3542d;
+}
+footer a{
+	color:#fff;
+}
+.wrap-footer{
+color:#fff;
+font-size:13px;
+padding:30px 20px;	
+}
+.wrap-footer h3{margin-bottom:10px;}
+
+		/******************** motobike page  **********************/
+
+.sub-header{
+	background:url(../images/bg-4.jpg);
+	min-height:150px;
+	padding:35px 10px 0;
+color:#fff;
+text-shadow:0 1px 0 #000;
+margin-bottom:50px;	
+}
+.sub-header h1{
+	font-size:35px;
+	margin-bottom:10px;
+
+}
+article{
+	display:inline-block;
+	border-bottom:1px solid #ddd;
+	padding-bottom:30px;
+	margin-bottom:30px;
+}
+article img{
+	display:inline-block;
+	float:left;
+	margin-right:15px;
+	border:1px solid #777;
+}
+
+article .art-header h3{
+	font-size:25px;
+	color:#333;
+	margin-bottom:10px;
+}
+article .art-header a:hover{
+	text-decoration:none;
+}
+
+			/******************** sidebar in motobike page  **********************/
+
+.wrap-sidebar
+{
+	margin:0px 10px;
+}
+.widget{
+	margin-bottom:30px;
+	padding:5px 25px 10px;
+}
+.wid-meta ul li{font-size:16px;}
+.wid-content{padding:10px 0;}
+
+.wid-archive select
+{
+		margin:5px 0;
+		height:40px;
+		width:100%;
+		padding-left:10px;
+		font-family:"noto serif";
+		font-size:16px;
+		background-color:#e9e9e9;
+		color:#777;
+		border:none;
+}
+
+		/*******************about**********************/
+
+blockquote{quotes:none;}
+article .entry-title
+{
+	margin:10px 0;
+}
+article .entry-title h1{
+	line-height:1.2;
+	font-size:38px;
+}
+article .art-content blockquote{
+	border-left:3px solid #1c7791;
+	font-size:18px;
+	margin:0 50px;
+	font-style:italic;
+	color:#666;
+	padding-left:20px;
+}
+article .art-content ol{
+		float:left;
+		text-align:justify;
+		margin:10px 50px;
+		font-size:16px;
+		list-style:circle;
+}
+
+			/*******************form**************************/
+
+#ff label{
+	display:block;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+#ff input, textarea{
+	display:block;
+	width:100%;
+	border-radius:4px;
+	color:#000;
+	border:1px solid #afafaf;
+	font-size:16px;
+	background:#fff;
+}
+#ff input{
+	padding:12px;
+	margin:5px 0 10px 0;
+	max-height:45px;
+}
+#ff textarea{
+	padding:10px;
+	margin:5px 0 25px 0;
+	height:200px;
+}
+#ff .btn{max-width:25%;}
+#ff .btn:hover{opacity:0.7;}
+
+			/***************** Style for little things *****************/
+
+div,span,img{
+	vertical-align:top;
+}
+
+.f-right{
+	float:right !important;
+}
+
+.orange{
+	color:#ff970b !important;
+	font-size:27px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+			/***************** Style for links *****************/
+
+a{color:#ff970b; text-decoration:none;vertical-align:top;}
+a:hover{text-decoration:underline;}
+
+.btn{
+	border:3px solid #d2583e;
+	border-radius:3px;
+	display:inline-block;
+	font-size:14px;
+	font-family:'Racing sans one';
+	line-height:1.4;
+	margin-bottom:0;
+	padding:6px 12px;
+	text-align:center;
+	transform:rotate(0deg) scale(1.003) skew(-14deg) translate(0px);
+	vertical-align:top;
+	white-space:nowrap;
+}
+
+.link{
+	margin-bottom:25px;
+	text-align:left;
+}
+.link li{
+	margin-bottom:5px;
+}
+.link li a{
+	display:inline-block;
+	text-decoration:none;
+	font-weight:bold;
+	letter-spacing:1px;
+	font-size:12px;
+}
+.link li a:hover{
+	color:#f26324;
+}
+.link li:before{
+	content:'';
+	margin-right:13px;
+	display:inline-block;
+	width:5px;
+	height:5px;
+	margin-bottom:2px;
+	background:#333;
+}
+
+			/***************** Style for paragraph and headings *****************/
+			
+p{
+	padding:0;
+	margin:10px 0;
+	color:#777;
+}
+h1,h2,h3,h4,h5{
+	margin:0;
+	padding:0;
+}
+
+h1,h2{font-size:25px;line-height:25px;}
+h3,h4{font-size:20px;line-height:20px;}
+h5{font-size:16px;line-height:16px;}
+
+		/*****************  *****************/
+
+.clearfix:after, .clearfix:before, article:after, article:before, .widget:after, .widget:before, .order:after, .order:before{
+	clear:both;
+	content:" ";
+	display:block;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
