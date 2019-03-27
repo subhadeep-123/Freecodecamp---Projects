@@ -1,0 +1,474 @@
+
+		/*************** adding font ******************/
+
+@font-face
+{
+	font-family:vegur;
+	src:url("Vegur-R.otf");
+}
+
+		/*************** body and main ******************/
+
+body
+{
+	font-family:arial;
+	font-size:100%;
+	color:#a1a1a1;
+	background:#000;
+	margin:0;
+	padding:0;
+}
+.extra{
+	height:auto !important;
+	min-height:100%;
+	margin:0px auto -40px;
+	position:relative;
+	overflow:hidden;
+	z-index:1;
+}
+.main
+{
+	width:960px;
+	padding:0;
+	margin:0px auto;
+	font-size:0.8em;
+	line-height:1.5em;
+}
+
+		/***************** header *********************/
+		
+header{
+	min-height:189px;
+	width:100%;
+	position:relative;
+}
+
+		/*************** logo ******************/
+
+.bg-1{
+	width:100%;
+	background:url(../images/bg-top.jpg) no-repeat center top;
+	min-height:131px;
+}
+h1
+{
+		padding:40px 0 0 0;
+		margin:0;
+		position:relative;
+}
+h1 a{
+	margin:0px auto;
+	display:block;
+	width:246px;
+	height:62px;
+	background:url(../images/logo.png) 0 0 no-repeat;
+	text-indent:-5000px;
+}
+
+		/*************** navigation bar ******************/
+
+.menu-bg{
+	
+	background:url(../images/menu-bg.jpg) no-repeat center top;
+	width:100%;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu
+{
+	padding:10px 0 0px 0;
+	width:100%;
+	height:40px;
+	overflow:hidden;
+	
+}
+.menu li
+{
+	float:left;
+	position:relative;
+	background:url(../images/menu-li-line.png) no-repeat left top;
+	padding:5px 33px 0 34px;
+}
+.menu li a{
+	display:inline-block;
+	font-size:23px;
+	line-height:1.3em;
+	text-transform:uppercase;
+	padding:0;
+	color:#fff;
+	letter-spacing:-1px;
+	font-family:vegur;
+	font-weight:700;
+	text-decoration:none;
+}
+.menu li a:hover, .menu li a.current{color:#93ceee;}
+
+/******************** content area of home page ***********************/
+
+.content
+{
+	width:100%;
+	padding:0;
+	position:relative;
+	z-index:1;
+}
+
+.bg-2
+{
+	width:100%;
+	background:url("../images/bg-2-tail.gif") repeat center top;
+	border-radius:3px;
+}
+
+.content-padding-1{padding:18px 0 37px 0;}
+.content-padding-2{padding:23px 0 57px 0;}
+
+.padding-grid-1{padding:0 0 0 28px;}
+.padding-grid-2{padding:0 0 0 29px;}
+.padding-grid-4{padding:3px 0 0 19px;line-height:24px;}
+
+			/***************  ******************/
+
+.time
+{
+	display:block;
+	width:55px;
+	height:54px;
+	overflow:hidden;
+	text-align:center;
+	float:left;
+	margin-right:16px;
+}
+.time-set-1{background:url(../images/marker-text-1.png) no-repeat 1px top;}
+.time-set-2{background:url(../images/marker-text-2.png) no-repeat 1px top;}
+.time-set-3{background:url(../images/marker-text-3.png) no-repeat 1px top;}
+
+			/***************  ******************/
+
+.lightbox-img
+{
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+	display:inline-block;
+}
+.lightbox-img img
+{
+	position:relative;
+	z-index:1;
+}
+.lightbox-img span
+{
+	display:inline-block;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:url(../images/magnify.png) no-repeat 50% 50%;
+	z-index:2;
+	padding:0;
+}
+
+		/*************** footer ******************/
+
+footer
+{
+	width:100%;
+	padding:0;
+	height:104px;
+	position:relative;
+	z-index:2;
+	color:#fff;
+	overflow:hidden;
+}
+.footer-bg
+{
+	width:100%;
+	background:url(../images/footer-bg.jpg) no-repeat -1px top;
+	min-height:104px;
+}
+.footer-padding
+{
+	padding:28px 80px 0 29px;
+}
+.footer-text
+{
+	font-size:14px;
+	line-height:24px;
+	color:#fff;
+	display:block;
+	float:left;
+}
+.footer-text span
+{
+	display:block;
+}
+
+.list-services
+{
+	float:right;
+	padding:2px 0 0 0;
+}
+.list-services li
+{
+	float:left;
+	padding:0 4px 0 0;
+}
+.list-services li a{
+	display:inline-block;
+	width:51px;
+	height:51px;
+}
+
+		/**************** audio page ******************/
+		
+.list-1 li
+{
+	font-size:13px;
+	line-height:20px;
+}
+.list-2{
+	padding:5px 21px 0 0;
+}
+.list-2 li
+{
+	position:relative;
+	overflow:hidden;
+	width:41px;
+	min-height:20px;
+	
+}
+.list-2 li img
+{
+	margin-right:4px;
+}
+
+		/**************** Gallery page ******************/
+
+.set-img img
+{
+	width:90%;
+	border:5px solid #fff;
+}
+
+		/**************** Tour dates page ******************/
+
+.add{display:inline-block;}
+.colr-1{color:#fff;}
+
+.list-3 li{
+	font-size:13px;
+	line-height:20px;
+	background:url(../images/list-3-marker.gif) no-repeat left 12px;
+	padding:5px 0 5px 12px;
+}
+.list-3 li a
+{
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+} 
+.list-3 li a:hover{color:#93ceee;}
+
+		/**************** contact page *****************/
+
+.contact-form
+{
+	position:relative;
+	vertical-align:align-top;
+	width:100%;
+}
+.contact-form fieldset
+{
+	border:none;
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow:hidden;
+}
+.contact-form label
+{
+	display:block;
+	min-height:40px;
+	overflow:hidden;
+}
+.style-input
+{
+	display:block;
+	float:left;
+	width:75px;
+	padding:5px 0 0 1px;
+}
+.contact-form input,textarea
+{
+	margin:0;
+	width:479px;
+	padding:6px 12px;
+	font-family:arial;
+	font-size:13px;
+	line-height:1.25em;
+	color:#a1a1a1;
+	border:1px solid #333;
+	background:none;
+	outline:none;
+}
+
+.contact-form textarea
+{
+	overflow:auto;
+	height:184px;
+}
+
+.link-form
+{
+	text-align:right;
+	padding:8px 20px 0 0;
+}
+.link-margin
+{
+	margin-right:40px;
+}
+
+iframe
+{
+	border:none;
+	vertical-align:top;
+	margin:0;
+	padding:0;
+}
+dl,dd,dt
+{
+	margin:0;
+	padding:0;
+}
+
+/********************/
+
+figure
+{
+	margin:0;
+	padding:0;
+	
+}
+.style-img{border:1px solid #3b3b3b;padding:1px;}
+.style-img-2{border:1px solid #333;padding:3px;}
+
+.fleft{float:left;}
+.fright{float:right;}
+
+.wrapper
+{
+	width:100%;
+	overflow:hidden;
+}
+.extra-wrap{
+	overflow:hidden;
+}
+img{vertical-align:top;}
+
+		/**************** style for links *****************/
+
+a{color:#93ceee;outline:none;text-decoration:none;vertical-align:top;}
+.link:hover{text-decoration:underline;}
+
+.button
+{
+	color:#fff;
+	font-size:16px;
+	line-height:30px;
+	display:inline-block;
+}
+.button:hover{text-decoration:underline;}
+
+		/**************** margins *****************/
+
+.indent-bot1{margin-bottom:23px;}
+.indent-bot2{margin-bottom:26px;}
+.indent-top1{margin-top:-10px;}
+.prev-indent-bot{margin-bottom:10px;}
+.prev-indent-bot1{margin-bottom:6px;}
+.prev-indent-bot2{margin-bottom:8px;}
+
+.margin-bot1{margin-bottom:32px;}
+
+p{margin:0;padding:0;}
+.margin-none{margin-bottom:0px;}
+.p3{margin-bottom:30px;}
+.p2{margin-bottom:15px;}
+
+		/**************** style for text *****************/
+
+.letter{letter-spacing:-1px;}
+		
+.text-1, .text-3, .text-5{
+	font-size:25px;
+	line-height:2em;
+	display:block;
+	color:#fff;
+	margin-top:-6px;
+	padding-left:2px;
+}
+.text-2, .text-4, .text-6{
+	font-size:20px;
+	line-height:2em;
+	display:block;
+	color:#a1a1a1;
+	margin-top:-29px;
+	letter-spacing:-1px;
+}
+
+.text-1{font-family:vegur;font-weight:700;text-shadow:1px 1px #191919;}
+.text-2{font-family:vegur;font-weight:400;text-shadow:1px 1px #191919;}
+.text-3{font-family:vegur;font-weight:700;text-shadow:1px 1px #4f9dd1;}
+.text-4{font-family:vegur;font-weight:400;color:#fff;}
+.text-5{font-family:vegur;font-weight:700;color:#5ca8d2;}
+.text-6{font-family:vegur;font-weight:400;color:#4d4d4d;}
+
+			/**************** style for headings *****************/
+
+h2,h3,h4,h5,h6
+{
+	margin:0;
+	padding:0;
+}
+h3{
+	font-size:25px;
+	line-height:2em;
+	margin:0 0 9px 0;
+	color:#93ceee;
+}
+h3 strong
+{
+	color:#fff;
+}
+
+h4{
+	font-size:20px;
+	line-height:2em;
+	color:#fff;
+	letter-spacing:-1px;
+	margin-bottom:-8px;
+}
+h4 a{text-decoration:none;display:inline-block;color:#fff;}
+h4 a:hover{color:#93ceee;}
+h3,h4{
+	font-family:vegur;
+	font-weight:400;
+}
+
+h6{
+	font-size:13px;
+	line-height:20px;
+	color:#fff;
+}
+h4 strong{color:#93ceee;}
+
+
+
+
+
+
